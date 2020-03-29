@@ -1,0 +1,22 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.card{
+    position: relative;
+    height: 50px;
+    width: 200px;
+}
+.card .multi-button{
+    z-index: 0;
+    position: absolute;
+    top : 1.25rem;
+    left: 1.25rem;
+    border-radius: 40%;
+    width: 0;
+    height: 0;
+    transform: translate(-50%,-50%);
+}
